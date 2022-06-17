@@ -34,4 +34,13 @@ async function adicionarDados(){
   }
 }
 
-adicionarDados()
+
+
+
+// CRIANDO EVENTO DE CLIQUE NO BOTÃO 'ADICIONAR'
+
+let adicionar = document.querySelector('#adicionar')
+
+adicionar.addEventListener('click', adicionarDados)
+    
+
